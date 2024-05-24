@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* border: 10px solid red; */
+}
+.JOIN{
+     display: none;
+}
+.john{
+    height: 35px;
+    width: 100px;
+    background-color: #F7F7F7;
+    border: 1px solid green;
+    color: #008254;
+    font-weight: bolder;
+}
+.meni{
+    display: none;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.nav{
+    background-color: #FFFFFF;
+    height: 75px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 10px #0000000d;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.log{
+    height: 25px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline
+}
+.magni{
+    height: 20px;
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inn{
+    height: 35px;
+    width: 100px;
+    background-color: #F7F7F7;
+    border: none;
+    color: #008254;
+    font-weight: bolder;
+}
+
+.upp{
+    height: 35px;
+    width: 100px;
+    background-color: #008254;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+/* content start  */
+.container1{
+    height: 50vh;
+    /* background-color: red; */
+}
+.box{
+    height: 350px;
+    padding: 20px;
+} 
+.box .nav{
+    width: 100%;
+    margin-top: 35px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ddfa88 ;
+    display: flex;
+    align-items: center;
+}
+.new{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.NEW{
+    width: 100px;
+    height: 30px;
+    border-radius: 60px;
+    border: none;
+}
+.section{
+    height: 100px;
+    /* background-color: violet; */
+    margin-top: 40px;
+    padding: 10px;
+}
+.section h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+ .picss{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.text{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    padding: 20px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.creditt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+ /* find the right student loan  */
+
+ .find{
+    height: 58vh;
+    width: 100%;
+    background-image: url(/images/background\ green\ img.svg);
+    padding: 50px;
+ }
+ .find1{
+    height: 40vh;
+    width: 50%;
+    background-color: white;
+    padding: 35px;
+    gap: 20px;
+    border-radius: 8px;
+    display: flex; 
+    flex-direction: column;
+    font-weight: bolder;
+ }
+ .comparw{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-weight: bolder;
+    gap: 11px;
+ }
+ .btn-loans{
+    height: 45px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    background-color: #008254;
+    color: white;
+ }
+ .btn-tips{
+    height: 45px;
+    width: 300px;
+    border-radius: 4px; 
+    border: 1px solid green;
+    color: #008254;
+    background-color: white;
+ }
+  
+ /* nerd ai  */
+
+ .nerd{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    
+ }
+ .nerd1{
+    height: 50vh;
+    width: 99.5%;
+    background-color: #03764B;
+    padding: 25px;
+    gap: 20px;
+    display: flex; 
+    flex-direction: column;
+    font-weight: bolder;
+ }
+ 
+  input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;   
+    gap: 10px;
+ }
+
+ .m{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+  .nerd p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+/* banner */
+
+.banner{
+    height: 50vh;
+    /* background-color: pink; */
+    display: flex;
+    padding: 30px;
+}
+ 
+.banner1{
+    width: 50%;
+    height: 400px;
+    background-color: #E8FDAC;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner2{
+    width: 50%;
+    height: 400px;
+    background-image: url(/images/nw-plus-dollars-wide.png);
+    background-size: cover;
+}
+
+/* advisors */
+
+.advisors{
+    height: 50vh;
+    display: flex;
+    padding: 30px;
+    margin-top: 100px;
+    /* background-color: red; */
+}
+.adv1{
+    width: 50%;
+    height: 300px;
+    background-color: #E8FDAC;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.adv2{
+    
+    width: 50%;
+    height: 41vh;
+    background-image: url(/images/homepage-nw-advisor-1280.jpg);
+    background-size: cover;
+}
+
+/* media query */
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+        gap: 20px;
+    }
+     .upp{
+        display: none;
+     }
+     a{
+        display: none;
+     }
+     .menu{
+        width: 100%;
+     }
+     .search{
+        width: 40%;
+     }
+     .JOIN{
+        display: block;
+        margin-right: 30px;
+     }
+     
+
+}
